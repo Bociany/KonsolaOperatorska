@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Konsola operatorska</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/static/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+  <link rel="stylesheet" href="/static/leaflet.awesome-markers.css">
+  <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  <script src="/static/leaflet.awesome-markers.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Konsola Operatorska</h1>
+  </header>
+  <div class="container" style="width: 100%; padding: 0;">
+    <div style="margin: 0; width: 100%;" class="mapouter">
+      <div id="mapid" style="width: 100%; height: 500px;"></div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <table class="table table-striped">
+    <tr class="bg-info">
+      <th data-column="Name" data-order="desc">Name &#9650;</th>
+      <th data-column="Id" data-order="desc">Id &#9650;</th>
+      <th data-column="Type" data-order="desc">Type &#9650;</th>
+      <th data-column="SerialNumber" data-order="desc">Serial Number &#9650;</th>
+      <th data-column="Strength" data-order="desc">Strength &#9650;</th>
+      <th data-column="BatteryLevel" data-order="desc">Battery Level &#9650;</th>
+      <th data-column="WorkingMode" data-order="desc">Working Mode &#9650;</th>
+    </tr>
+    <tbody id="myTable"></tbody>
+  </table>
+  <script src="/static/app.js"></script>
+  <footer>
+    <p>Praca na konkurs Motorola Science Cup
+      <br>Autorzy: Kacper Staroń, Dawid Mularczyk, Aleksadner Brzykcy, Mateusz Łoziński, Piotr Łaba
+    </p>
+  </footer>
+</body>
+</html>
+
